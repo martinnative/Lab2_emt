@@ -1,14 +1,14 @@
-package emt.lab2.java.service.impl;
+package emt.lab2.java.Service.impl;
 
-import emt.lab2.java.model.Author;
-import emt.lab2.java.model.Book;
-import emt.lab2.java.model.dto.BookDto;
-import emt.lab2.java.model.enumeration.BookCategory;
-import emt.lab2.java.model.exception.AuthorNotFoundException;
-import emt.lab2.java.model.exception.BookNotFoundException;
-import emt.lab2.java.repository.AuthorRepository;
-import emt.lab2.java.repository.BookRepository;
-import emt.lab2.java.service.BookService;
+import emt.lab2.java.Model.Author;
+import emt.lab2.java.Model.Book;
+import emt.lab2.java.Model.data_transfer.BookDto;
+import emt.lab2.java.Model.Enumerations.BookCategory;
+import emt.lab2.java.Model.Exceptions.AuthorNotFoundException;
+import emt.lab2.java.Model.Exceptions.BookNotFoundException;
+import emt.lab2.java.Repository.AuthorRepository;
+import emt.lab2.java.Repository.BookRepository;
+import emt.lab2.java.Service.BookService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

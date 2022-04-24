@@ -1,7 +1,7 @@
-package emt.lab2.java.service;
+package emt.lab2.java.Service;
 
-import emt.lab2.java.model.Book;
-import emt.lab2.java.model.dto.BookDto;
+import emt.lab2.java.Model.Book;
+import emt.lab2.java.Model.data_transfer.BookDto;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

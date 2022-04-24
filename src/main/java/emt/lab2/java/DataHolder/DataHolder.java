@@ -1,12 +1,12 @@
-package emt.lab2.java.dataHolder;
+package emt.lab2.java.DataHolder;
 
-import emt.lab2.java.model.Author;
-import emt.lab2.java.model.Book;
-import emt.lab2.java.model.Country;
-import emt.lab2.java.repository.AuthorRepository;
-import emt.lab2.java.repository.BookRepository;
-import emt.lab2.java.repository.CountryRepository;
-import emt.lab2.java.service.AuthorService;
+import emt.lab2.java.Model.Author;
+import emt.lab2.java.Model.Book;
+import emt.lab2.java.Model.Country;
+import emt.lab2.java.Repository.AuthorRepository;
+import emt.lab2.java.Repository.BookRepository;
+import emt.lab2.java.Repository.CountryRepository;
+import emt.lab2.java.Service.AuthorService;
 import lombok.Getter;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package emt.lab2.java.service;
+package emt.lab2.java.Service;
 
 public interface CountryService {
 }

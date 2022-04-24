@@ -1,4 +1,4 @@
-package emt.lab2.java.model.dto;
+package emt.lab2.java.Model.data_transfer;
 
 import lombok.Data;
 

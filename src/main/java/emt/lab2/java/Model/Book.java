@@ -1,7 +1,7 @@
-package emt.lab2.java.model;
+package emt.lab2.java.Model;
 
 
-import emt.lab2.java.model.enumeration.BookCategory;
+import emt.lab2.java.Model.Enumerations.BookCategory;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -9,7 +9,6 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@NoArgsConstructor
 public class Book {
 
     @Id
@@ -31,5 +30,8 @@ public class Book {
         this.category = BookCategory.valueOf(category);
         this.author = author;
         this.availableCopies = availableCopies;
+    }
+
+    public Book() {
     }
 }

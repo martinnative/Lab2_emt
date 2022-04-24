@@ -1,4 +1,4 @@
-package emt.lab2.java.model.exception;
+package emt.lab2.java.Model.Exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

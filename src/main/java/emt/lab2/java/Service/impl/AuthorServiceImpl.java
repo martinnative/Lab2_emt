@@ -1,8 +1,8 @@
-package emt.lab2.java.service.impl;
+package emt.lab2.java.Service.impl;
 
-import emt.lab2.java.model.Author;
-import emt.lab2.java.repository.AuthorRepository;
-import emt.lab2.java.service.AuthorService;
+import emt.lab2.java.Model.Author;
+import emt.lab2.java.Repository.AuthorRepository;
+import emt.lab2.java.Service.AuthorService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

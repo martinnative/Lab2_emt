@@ -1,4 +1,4 @@
-package emt.lab2.java.model.enumeration;
+package emt.lab2.java.Model.Enumerations;
 
 import java.util.List;
 import java.util.stream.Collectors;

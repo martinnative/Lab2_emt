@@ -1,7 +1,7 @@
-package emt.lab2.java.controller;
+package emt.lab2.java.Controller;
 
-import emt.lab2.java.model.Author;
-import emt.lab2.java.service.AuthorService;
+import emt.lab2.java.Model.Author;
+import emt.lab2.java.Service.AuthorService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

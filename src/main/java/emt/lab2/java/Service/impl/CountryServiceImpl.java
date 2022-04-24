@@ -1,7 +1,7 @@
-package emt.lab2.java.service.impl;
+package emt.lab2.java.Service.impl;
 
-import emt.lab2.java.repository.CountryRepository;
-import emt.lab2.java.service.CountryService;
+import emt.lab2.java.Repository.CountryRepository;
+import emt.lab2.java.Service.CountryService;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package emt.lab2.java.model;
+package emt.lab2.java.Model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,7 +11,6 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-@NoArgsConstructor
 public class Country {
 
     @Id
@@ -25,5 +24,8 @@ public class Country {
     public Country(String name, String continent) {
         this.name = name;
         this.continent = continent;
+    }
+
+    public Country() {
     }
 }

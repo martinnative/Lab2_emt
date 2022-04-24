@@ -1,6 +1,6 @@
-package emt.lab2.java.service;
+package emt.lab2.java.Service;
 
-import emt.lab2.java.model.Author;
+import emt.lab2.java.Model.Author;
 
 import java.util.List;
 

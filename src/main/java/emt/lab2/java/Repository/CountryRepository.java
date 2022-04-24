@@ -1,6 +1,6 @@
-package emt.lab2.java.repository;
+package emt.lab2.java.Repository;
 
-import emt.lab2.java.model.Country;
+import emt.lab2.java.Model.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

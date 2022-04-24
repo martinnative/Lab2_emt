@@ -1,4 +1,4 @@
-package emt.lab2.java.model;
+package emt.lab2.java.Model;
 
 
 import lombok.Data;
@@ -8,7 +8,6 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@NoArgsConstructor
 public class Author {
 
     @Id
@@ -26,5 +25,8 @@ public class Author {
         this.name = name;
         this.surname = surname;
         this.country = country;
+    }
+
+    public Author() {
     }
 }

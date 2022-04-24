@@ -1,6 +1,6 @@
-package emt.lab2.java.controller;
+package emt.lab2.java.Controller;
 
-import emt.lab2.java.service.CountryService;
+import emt.lab2.java.Service.CountryService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
